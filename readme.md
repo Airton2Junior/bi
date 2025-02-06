@@ -31,7 +31,11 @@ Examples of how to use the project.
 
 ```bash
 # Run the project
-npm start
+python -m streamlit run primeiro_dashboard.py
+
+ou
+
+streamlit run primeiro_dashboard.py
 ```
 
 ## Contributing
