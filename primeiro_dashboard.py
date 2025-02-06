@@ -15,7 +15,9 @@ df = pd.read_csv('NSE-TATAGLOBAL11.csv', sep=',') # Importando a base de dados e
 
 # Importando as demais bibliotecas necessárias
 import numpy as np
+# pip install scikit-learn
 from sklearn.preprocessing import MinMaxScaler
+# pip install tensorflow
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, LSTM
 
