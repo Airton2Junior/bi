@@ -13,7 +13,9 @@ RUN apt-get update && apt-get install -y \
 
 RUN git clone https://github.com/Airton2Junior/bi.git .
 
-RUN pip3 install --no-cache-dir -r requirements.txt
+RUN pip install streamlit
+
+RUN pip3 install -r requirements.txt
 
 EXPOSE 8501
 
