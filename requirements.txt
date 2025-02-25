@@ -1,4 +1,6 @@
+pandas
+streamlit
+numpy
 scikit-learn
 altair
 tf_keras
-streamlit
